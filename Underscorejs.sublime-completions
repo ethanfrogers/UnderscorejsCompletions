@@ -1,0 +1,217 @@
+{
+	"scope":"source.js - variable.other.js",
+	"completions" : [
+		{
+			"trigger" : "each\tUnderscore",
+			"contents" : "each(${1:list}, function(${2:object}){\n${3:\t//code}\n});"
+		},
+		{
+			"trigger" : "map\tUnderscore",
+			"contents":"map(${1:list}, function(${2:object}){\n${3:\t//code}\n});"
+		},
+		{
+			"trigger" : "reduce\tUnderscore",
+			"contents" : "reduce(${1:list}, function(${2:memo}, ${3:num}){\n${4:\t//code}\n}, ${5:context});"
+		},
+		{
+			"trigger" : "reduceRight\tUnderscore",
+			"contents" : "reduceRight(${1:list}, function(${2:a},${3:b}){\n${4:\t//code}\n}, []);"
+		},
+		{
+			"trigger" : "find\tUnderscore",
+			"contents" : "find(${1:list}, function(${2:object}){\n${3:\t//code}\n});"
+		},
+		{
+			"trigger" : "filter\tUnderscore",
+			"contents" : "filter(${1:list}, function(${2:object}){\n${3:\t//code}\n});"
+		},
+		{
+			"trigger" : "where\tUnderscore",
+			"contents" : "where(${1:list}, function({${2:properties}});"
+		},
+		{
+			"trigger" : "findWhere\tUnderscore",
+			"contents" : "findWhere(${1:list}, function({${2:properties}});"
+		},
+		{
+			"trigger" : "reject\tUnderscore",
+			"contents" : "reject(${1:list}, function(${2:object}){\n${3:\t//code}\n});"
+		},
+		{
+			"trigger" : "every\tUnderscore",
+			"contents" : "every(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "some\tUnderscore",
+			"contents" : "some(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "contains\tUnderscore",
+			"contents" : "contains(${1:list}, ${2:value});"
+		},
+		{
+			"trigger" : "invoke\tUnderscore",
+			"contents" : "invoke(${1:list}, '${2:methodName}', ${3:arguments});"
+		},
+		{
+			"trigger" : "pluck\tUnderscore",
+			"contents" : "pluck(${1:list}, '${3:propertyName}');"
+		},
+		{
+			"trigger" : "max\tUnderscore",
+			"contents" : "max(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "min\tUnderscore",
+			"contents" : "min(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "sortBy\tUnderscore",
+			"contents" : "sortBy(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "groupBy\tUnderscore",
+			"contents" : "groupBy(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "indexBy\tUnderscore",
+			"contents" : "indexBy(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "countBy\tUnderscore",
+			"contents" : "countBy(${1:list}, function(${2:object}){\n${3://code}\n});"
+		},
+		{
+			"trigger" : "shuffle\tUnderscore",
+			"contents" : "shuffle(${1:list});"
+		},
+		{
+			"trigger" : "sample\tUnderscore",
+			"contents" : "sortBy(${1:list}, ${2:n});"
+		},
+		{
+			"trigger" : "toArray\tUnderscore",
+			"contents" : "toArray(${1:list});"
+		},
+		{
+			"trigger" : "size\tUnderscore",
+			"contents" : "size(${1:list});"
+		},
+		{
+			"trigger" : "first\tUnderscore",
+			"contents" : "first(${1:list});"
+		},
+		{
+			"trigger" : "initial\tUnderscore",
+			"contents" : "initial(${1:list});"
+		},
+		{
+			"trigger" : "last\tUnderscore",
+			"contents" : "last(${1:list});"
+		},
+		{
+			"trigger" : "rest\tUnderscore",
+			"contents" : "rest(${1:list});"
+		},
+		{
+			"trigger" : "compact\tUnderscore",
+			"contents" : "compact(${1:list});"
+		},
+		{
+			"trigger" : "flatten\tUnderscore",
+			"contents" : "flatten(${1:list}, ${2:true|false});"
+		},
+		{
+			"trigger" : "without\tUnderscore",
+			"contents" : "without(${1:list}, ${2:value(s)});"
+		},
+		{
+			"trigger" : "union\tUnderscore",
+			"contents" : "union(${1:array}, ${2:array,...});"
+		},
+		{
+			"trigger" : "intersection\tUnderscore",
+			"contents" : "intersection(${1:list}, ${2:array,...});"
+		},
+		{
+			"trigger" : "difference\tUnderscore",
+			"contents" : "difference(${1:array}, ${2:others});"
+		},
+		{
+			"trigger" : "uniq\tUnderscore",
+			"contents" : "uniq(${1:list}, ${2:true|false});"
+		},
+		{
+			"trigger" : "zip\tUnderscore",
+			"contents" : "zip(${1:array1,...});"
+		},
+		{
+			"trigger" : "object\tUnderscore",
+			"contents" : "object(${1:list}, [${2:values}]);"
+		},
+		{
+			"trigger" : "indexOf\tUnderscore",
+			"contents" : "indexOf(${1:array}, ${2:value});"
+		},
+		{
+			"trigger" : "lastIndexOf\tUnderscore",
+			"contents" : "lastIndexOf(${1:array}, ${2:value});"
+		},
+		{
+			"trigger" : "sortedIndex\tUnderscore",
+			"contents" : "sortedIndex(${1:list}, ${2:value});"
+		},
+		{
+			"trigger" : "range\tUnderscore",
+			"contents" : "range(${1:start}, ${2:stop}, ${3:step});"
+		},
+		{
+			"trigger" : "bind\tUnderscore",
+			"contents" : "bind(${1:function}, ${2:object}, ${3:arguments*});"
+		},
+		{
+			"trigger" : "bindAll\tUnderscore",
+			"contents" : "bindAll(${1:object}, ${2:methodNames*});"
+		},
+		{
+			"trigger" : "partial\tUnderscore",
+			"contents" : "partial(${1:function}, ${2:arguments*});"
+		},
+		{
+			"trigger" : "memoize\tUnderscore",
+			"contents" : "memoize(${1:function});"
+		},
+		{
+			"trigger" : "delay\tUnderscore",
+			"contents" : "delay(${1:function}, ${2:wait});"
+		},
+		{
+			"trigger" : "defer\tUnderscore",
+			"contents" : "defer(${1:function});"
+		},
+		{
+			"trigger" : "throttle\tUnderscore",
+			"contents" : "throttle(${1:function}, ${2:wait});"
+		},
+		{
+			"trigger" : "debounce\tUnderscore",
+			"contents" : "debounce(${1:function}, ${2:wait});"
+		},
+		{
+			"trigger" : "once\tUnderscore",
+			"contents" : "once(${1:function});"
+		},
+		{
+			"trigger" : "after\tUnderscore",
+			"contents" : "after(${1:count}, ${2:function});"
+		},
+		{
+			"trigger" : "wrap\tUnderscore",
+			"contents" : "wrap(${1:function}, ${2:wrapper});"
+		},
+		{
+			"trigger" : "compose\tUnderscore",
+			"contents" : "compose(${1:*function});"
+		}
+	]
+}
