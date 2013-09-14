@@ -212,6 +212,158 @@
 		{
 			"trigger" : "compose\tUnderscore",
 			"contents" : "compose(${1:*function});"
+		},
+		{
+			"trigger" : "keys\tUnderscore",
+			"contents" : "keys(${1:object});"
+		},
+		{
+			"trigger" : "values\tUnderscore",
+			"contents" : "values(${1:object});"
+		},
+		{
+			"trigger" : "pairs\tUnderscore",
+			"contents" : "pairs(${1:object});"
+		},
+		{
+			"trigger" : "invert\tUnderscore",
+			"contents" : "invert(${1:object});"
+		},
+		{
+			"trigger" : "functions\tUnderscore",
+			"contents" : "functions(${1:object});"
+		},
+		{
+			"trigger" : "extend\tUnderscore",
+			"contents" : "extend(${1:destination}, ${2:*sources});"
+		},
+		{
+			"trigger" : "pick\tUnderscore",
+			"contents" : "pick(${1:object}, ${2:*keys});"
+		},
+		{
+			"trigger" : "omit\tUnderscore",
+			"contents" : "omit(${1:object}, ${2:*keys});"
+		},
+		{
+			"trigger" : "defaults\tUnderscore",
+			"contents" : "defaults(${1:object},${2:*defaults});"
+		},
+		{
+			"trigger" : "clone\tUnderscore",
+			"contents" : "clone(${1:object});"
+		},
+		{
+			"trigger" : "tap\tUnderscore",
+			"contents" : "tap(${1:object}, ${2:interceptor});"
+		},
+		{
+			"trigger" : "has\tUnderscore",
+			"contents" : "has(${1:object}, ${2:key});"
+		},
+		{
+			"trigger" : "isEqual\tUnderscore",
+			"contents" : "isEqual(${1:object1}, ${2:object2});"
+		},
+		{
+			"trigger" : "isEmpty\tUnderscore",
+			"contents" : "isEmpty(${1:object});"
+		},
+		{
+			"trigger" : "isElement\tUnderscore",
+			"contents" : "isElement(${1:object});"
+		},
+		{
+			"trigger" : "isArray\tUnderscore",
+			"contents" : "isArray(${1:object});"
+		},
+		{
+			"trigger" : "isObject\tUnderscore",
+			"contents" : "isObject(${1:value});"
+		},
+		{
+			"trigger" : "isArguments\tUnderscore",
+			"contents" : "isArguments(${1:object});"
+		},
+		{
+			"trigger" : "isFunction\tUnderscore",
+			"contents" : "isFunction(${1:object});"
+		},
+		{
+			"trigger" : "isString\tUnderscore",
+			"contents" : "isString(${1:object});"
+		},
+		{
+			"trigger" : "isNumber\tUnderscore",
+			"contents" : "isNumber(${1:object});"
+		},
+		{
+			"trigger" : "isFinite\tUnderscore",
+			"contents" : "isFinite(${1:object});"
+		},
+		{
+			"trigger" : "isBoolean\tUnderscore",
+			"contents" : "isBoolean(${1:object});"
+		},
+		{
+			"trigger" : "isDate\tUnderscore",
+			"contents" : "isDate(${1:object});"
+		},
+		{
+			"trigger" : "isRegExp\tUnderscore",
+			"contents" : "isRegExp(${1:object});"
+		},
+		{
+			"trigger" : "isNaN\tUnderscore",
+			"contents" : "isNaN(${1:object});"
+		},
+		{
+			"trigger" : "isNull\tUnderscore",
+			"contents" : "isNull(${1:object});"
+		},
+		{
+			"trigger" : "isUndefined\tUnderscore",
+			"contents" : "isUndefined(${1:object});"
+		},
+		{
+			"trigger" : "noConflict\tUnderscore",
+			"contents" : "noConflict();"
+		},
+		{
+			"trigger" : "identity\tUnderscore",
+			"contents" : "identity(${1:value});"
+		},
+		{
+			"trigger" : "times\tUnderscore",
+			"contents" : "times(${1:n}, ${3:iterator});"
+		},
+		{
+			"trigger" : "random\tUnderscore",
+			"contents" : "random(${1:min}, ${2:max});"
+		},
+		{
+			"trigger" : "mixin\tUnderscore",
+			"contents" : "mixin(${1:object});"
+		},
+		{
+			"trigger" : "uniqueId\tUnderscore",
+			"contents" : "uniqueId(${1:prefix});"
+		},
+		{
+			"trigger" : "escape\tUnderscore",
+			"contents" : "escape(${1:string});"
+		},
+		{
+			"trigger" : "unescape\tUnderscore",
+			"contents" : "unescape(${1:string});"
+		},
+		{
+			"trigger" : "result\tUnderscore",
+			"contents" : "result(${1:object}, ${2:property});"
+		},
+		{
+			"trigger" : "template\tUnderscore",
+			"contents" : "template(${1:templateString}, ${2:data});"
 		}
 	]
 }
